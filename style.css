@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Montserrat", sans-serif;
+	background: rgb(228, 228, 228);
+}
+.container{
+	background-image: url('photo/ash.png');
+	height: 100vh;
+}
+.heading{
+	text-align: center;
+	margin: 0px 0px 15px 0px;
+	background: #00848c;
+	color: black;
+
+}
+.heading h1{
+	font-size: 35px;
+}
+.heading p{
+	margin-top: 8px;
+	font-size: 14px;
+}
+.currencyInput{
+	display: flex;
+	flex-direction: column;
+	margin: 15px 0px;
+	width: 90%;
+	margin: 0 auto;
+}
+#taka, #dollar, #euro, #renminbi, #yen{
+	margin: 0 auto;
+	margin-top: 40px;
+	border: none;
+	padding: 20px 20px;
+	font-family: "Montserrat", sans-serif; 
+	font-weight: bold;
+	font-size: 15px;
+	width: 400px;
+	box-shadow: 0px 1px 5px rgb(97,97,97,97);
+}
+#taka{
+	background: #800080;
+	
+}
+#dollar{
+  background: #FF5733;
+}
+#euro{
+  background: #196F3D;
+}
+#renminbi{
+   background: #922B21;
+}
+#yen{
+	background: #17202A;
+}
